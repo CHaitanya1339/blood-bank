@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<style>
+/*--------------------------admin-index------------------------*/
+
+button
+    {
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-right:50px;
+        padding-left:25px;
+    }
+   
+    .first-row{
+display:flex;
+}
+.Click_here_to_add_trains{
+width:300px;
+height:150px;
+margin-right:40px;
+border:2px solid white;
+background-color:#BCD4E6;
+}
+
+.Click_here_to_delete_trains{
+width:300px;
+height:150px;
+
+margin-right:40px;
+border:2px solid white;
+background-color:#BCD4E6;
+}
+.Click_here_to_view_trains{
+width:300px;
+height:150px;
+margin-right:40px;
+border:2px solid white;
+background-color:#BCD4E6;
+}
+.box{
+    margin:100px 200px;
+    padding-left:20px;
+    
+}
+
+</style>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Admin Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="p-3 m-0 border-0 bd-example bd-example-cssgrid">
+    <h1 style="color:red;text-align:center;"> Welcome Bloodbank Admin!
+                  
+                </h1>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php"><i class="fa fa-heartbeat fa-lg"></i> Blood Bank</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="admin.html"><i class="fa fa-home"></i> Logout</a></li>
+                
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+ <div class="container">
+        <div class="box">
+        <div class="first-row">
+            <div class="Click_here_to_add_trains">
+                <h3 style="text-align:center; font-family: 'Times New Roman';">Donors</h3>
+                <a href="adonor.php" ><button >CLICK</button></a>
+            </div>
+            <div class="Click_here_to_delete_trains">
+                <h3  style="text-align:center;font-family: 'Times New Roman';">Recieptents</h3>
+                <a href="arec.php" ><button >CLICK</button></a>
+            </div>
+            <div class="Click_here_to_view_trains">
+                <h3 style="text-align:center;font-family: 'Times New Roman';">Records</h3>
+                <a href="arecords.php" ><button >CLICK</button></a>
+            </div>
+        </div>
+        </div><br><br>
+        
+    </div>
+</body>
+
+</html>
